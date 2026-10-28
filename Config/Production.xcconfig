@@ -1,0 +1,9 @@
+// Production environment (used by the Release build configuration).
+#include "Shared.xcconfig"
+
+APP_ENVIRONMENT = production
+BUNDLE_ID_SUFFIX =
+
+// PLACEHOLDER - not a real server. The app refuses to start in production
+// while this host is an example.com placeholder (see AppConfiguration).
+API_BASE_URL = https:/$()/api.example.com

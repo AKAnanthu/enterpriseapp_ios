@@ -1,0 +1,11 @@
+// Copy to Config/Local.xcconfig (git-ignored) to override development settings
+// on your machine without committing them.
+//
+//   cp Config/Local.xcconfig.example Config/Local.xcconfig
+//
+// Do not put secrets here either: values end up in the app's Info.plist.
+
+// API_BASE_URL = https:/$()/your-dev-server.example.org
+// API_BASE_URL = http:/$()/localhost:8080     // http is accepted only for localhost in development
+// LOGIN_IDENTIFIER_KIND = username
+// PASSWORD_RESET_URL = https:/$()/your-dev-server.example.org/reset-password

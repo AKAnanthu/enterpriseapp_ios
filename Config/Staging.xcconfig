@@ -1,0 +1,8 @@
+// Staging environment (used by the Staging build configuration).
+#include "Shared.xcconfig"
+
+APP_ENVIRONMENT = staging
+BUNDLE_ID_SUFFIX = .staging
+
+// PLACEHOLDER - not a real server. Replace before distributing staging builds.
+API_BASE_URL = https:/$()/staging-api.example.com

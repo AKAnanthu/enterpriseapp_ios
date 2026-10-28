@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Values are injected from Config/*.xcconfig at build time and read by AppConfiguration. -->
+	<key>AppEnvironment</key>
+	<string>$(APP_ENVIRONMENT)</string>
+	<key>APIBaseURL</key>
+	<string>$(API_BASE_URL)</string>
+	<key>APITimeoutSeconds</key>
+	<string>$(API_TIMEOUT_SECONDS)</string>
+	<key>LoginIdentifierKind</key>
+	<string>$(LOGIN_IDENTIFIER_KIND)</string>
+	<key>PasswordResetURL</key>
+	<string>$(PASSWORD_RESET_URL)</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+// Shared build settings for every build configuration.
+//
+// NOTE: `//` starts a comment in .xcconfig files, so URLs are written as
+// `https:/$()/host`. The empty `$()` expansion keeps the double slash intact.
+//
+// Never place secrets (client secrets, API keys with server privileges,
+// signing credentials) in these files. Everything here is bundled into the app.
+
+APP_DISPLAY_NAME = Business
+
+// Placeholder bundle identifier. Replace with your organisation's reverse-DNS id.
+BASE_BUNDLE_IDENTIFIER = com.example.NativeBusinessApp
+
+// Request timeout in seconds (1...120).
+API_TIMEOUT_SECONDS = 30
+
+// Login identifier expected by the backend: `email` or `username`.
+LOGIN_IDENTIFIER_KIND = email
+
+// Optional web page for password reset. Leave empty to show an
+// "contact your administrator" message instead.
+PASSWORD_RESET_URL =

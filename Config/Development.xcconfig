@@ -1,0 +1,11 @@
+// Development environment (used by the Debug build configuration).
+#include "Shared.xcconfig"
+
+APP_ENVIRONMENT = development
+BUNDLE_ID_SUFFIX = .dev
+
+// PLACEHOLDER - not a real server. Override in Config/Local.xcconfig.
+API_BASE_URL = https:/$()/dev-api.example.com
+
+// Optional, git-ignored developer overrides (see Local.xcconfig.example).
+#include? "Local.xcconfig"
